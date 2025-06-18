@@ -1,0 +1,17 @@
+.app-layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-body {
+  display: flex;
+  flex: 1;
+}
+
+.app-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
