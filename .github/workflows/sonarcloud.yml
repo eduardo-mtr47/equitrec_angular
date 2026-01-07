@@ -38,3 +38,4 @@ jobs:
           projectBaseDir: frontend-web
         env:
           SONAR_TOKEN: ${{ secrets.EQUITREC_ANGULAR }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
