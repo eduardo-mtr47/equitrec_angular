@@ -24,9 +24,11 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
+        working-directory: frontend-web
         run: npm ci
 
-      - name: Run tests (optional mais recommandé)
+      - name: Run tests
+        working-directory: frontend-web
         run: npm test -- --watch=false --browsers=ChromeHeadless
         continue-on-error: true
 
