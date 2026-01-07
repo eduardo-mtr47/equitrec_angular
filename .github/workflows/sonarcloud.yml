@@ -37,4 +37,4 @@ jobs:
         with:
           projectBaseDir: frontend-web
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.EQUITREC_ANGULAR }}
